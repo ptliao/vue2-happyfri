@@ -13,6 +13,10 @@ export default {
       commit('BACK_ITEMNUM', 1)
     }
   },
+  clickNum2({commit,state},index){
+    commit('CLICK_NUM2',index)
+  },
+
   //初始化信息
   initializeData({commit}) {
     commit('INITIALIZE_DATA');
